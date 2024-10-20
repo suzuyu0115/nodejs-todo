@@ -4,6 +4,7 @@ const taskRoute = require("./routes/tasks");
 
 const PORT = 8080;
 
+// ルーティング設計
 app.use("/api/v1/tasks", taskRoute);
 
 app.listen(PORT, console.log("サーバーが起動しました"));
